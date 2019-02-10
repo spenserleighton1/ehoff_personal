@@ -32,8 +32,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }
 
 *,
@@ -55,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -177,7 +177,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
   font-size: 1em;
 }
 
@@ -5153,7 +5153,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5255,7 +5255,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9188,7 +9188,7 @@ button.bg-dark:focus {
   }
 }
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }
 
 .text-justify {
@@ -9513,11 +9513,11 @@ h3 {
 }
 body {
   padding: 3em;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
 }
 
 h1, h3, h5 {
-  font-family: "Exo", sans-serif;
+  /* font-family: "Exo", sans-serif; */
 }
 
 section {
@@ -9530,7 +9530,7 @@ section {
 }
 
 .navbar-nav {
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1600px;
   margin: auto;
   width: 100%;
@@ -9564,9 +9564,8 @@ section {
   padding-top: 5em;
 }
 .title h1 {
-  padding: 0.6em 0 0.3em 0;
-  text-align: center;
-  font-size: 5em;
+  text-align: left;
+  font-size: 15vw;
 }
 .title p {
   max-width: 1200px;
@@ -9623,7 +9622,7 @@ section {
   margin: 0;
 }
 .experience-container .experience-item span {
-  font-family: "Exo", sans-serif;
+  /* font-family: "Exo", sans-serif; */
 }
 .experience-container .experience-item p {
   max-width: 900px;
@@ -9812,6 +9811,22 @@ footer p {
   width: 50%;
   transform: skewY(-30deg);
 }
+
+.journals-list {
+  margin-top: 2em;
+  list-style-type: none;
+  margin-left: -20px;
+}
+.journals-list li{
+  font-size: .85em;
+  line-height: 1em;
+}
+
+.main-h-title{
+  font-size: 140px;
+  text-align: left;
+}
+
 
 @keyframes move-chevron {
   25% {
