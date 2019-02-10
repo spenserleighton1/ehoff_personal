@@ -380,8 +380,17 @@ $base: 0.4rem;
  }
 }
 
-
-
+.ul {
+  list-style-type: none;
+  margin-left: -20px;
+}
+.journals-list {
+  list-style-type: none;
+  margin-left: -20px;
+}
+.journals-list li{
+  color: red;
+}
 
 
 
