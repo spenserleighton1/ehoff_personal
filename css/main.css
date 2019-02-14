@@ -9187,9 +9187,6 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-.text-monospace {
-  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
-}
 
 .text-justify {
   text-align: justify !important;
@@ -9516,10 +9513,6 @@ body {
   /* font-family: "Raleway", sans-serif; */
 }
 
-h1, h3, h5 {
-  /* font-family: "Exo", sans-serif; */
-}
-
 section {
   margin: auto auto -12em auto;
   padding: 0 2em 0 2em;
@@ -9621,9 +9614,7 @@ section {
   padding-top: 0.5em;
   margin: 0;
 }
-.experience-container .experience-item span {
-  /* font-family: "Exo", sans-serif; */
-}
+
 .experience-container .experience-item p {
   max-width: 900px;
   padding: 0.5em;
