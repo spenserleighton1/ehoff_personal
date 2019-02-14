@@ -9835,6 +9835,21 @@ footer p {
   }
 }
 
+@media (max-width: 600px) {
+  .journals-list{
+    margin-left: -40px;
+  }
+  .list-p{
+    font-size: 11px;
+  }
+  .list-p span{
+    display: none;
+  }
+  .list-p a{
+    font-size: 11px;
+  }
+}
+
 @keyframes move-chevron {
   25% {
     opacity: 1;
